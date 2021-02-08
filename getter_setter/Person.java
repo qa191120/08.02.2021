@@ -23,7 +23,7 @@ public class Person {
     }
 
     //public void setAge(int newValue) {
-//        if (age > 0 && age < 120) {
+//        if (newValue > 0 && newValue < 120) {
 //            age = newValue;
 //        }
 //    }
@@ -35,7 +35,7 @@ public class Person {
 
     // Setter + boolean
     public boolean setAge(int newValue) {
-        if (age > 0 && age < 120) {
+        if (newValue > 0 && newValue < 120) {
             age = newValue;
             return true;
         }
